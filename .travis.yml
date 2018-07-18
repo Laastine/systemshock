@@ -36,7 +36,7 @@ before_deploy:
   - mkdir -p shockolate
   - cp systemshock shockolate
   - cp osx-linux/install_32bit_sdl.sh shockolate
-  - cp osx-linux/readme_osx_linux.md shockolate
+  - cp readme/readme_osx_linux.md shockolate
   - tar zcfv $PACKAGE_NAME shockolate
   - rm -r shockolate
 
